@@ -1,11 +1,14 @@
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        int playerCount = InputService.insertPlayerCount();
 
-        System.out.print("write player name : ");
-        String playerName = scan.next();
+        for(int i = 1; i <= playerCount; i++) {
+            Frames frames = new Frames();
+            User user = new User(InputService.insertUserName(i), frames);
+//            String playerName = InputService.insertUserName(i);
+
+        }
         PrintScoreBoard.printScoreBoardTitle();
     }
 }
