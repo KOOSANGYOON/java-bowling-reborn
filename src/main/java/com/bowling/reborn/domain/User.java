@@ -1,3 +1,5 @@
+package com.bowling.reborn.domain;
+
 public class User {
     private String userName;
     private Frames frames;

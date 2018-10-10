@@ -1,3 +1,7 @@
+package com.bowling.reborn.service;
+
+import com.bowling.reborn.domain.User;
+
 public class PrintScoreBoard {
     public static void printScoreBoardTitle() {
         System.out.print("|" + "\t" + "NAME" + "\t" + "|");

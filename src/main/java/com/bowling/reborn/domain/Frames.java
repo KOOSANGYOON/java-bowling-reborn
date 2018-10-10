@@ -1,3 +1,5 @@
+package com.bowling.reborn.domain;
+
 import java.util.ArrayList;
 import java.util.List;
 
