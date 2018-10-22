@@ -8,4 +8,8 @@ public class User {
         this.userName = userName;
         this.frames = frames;
     }
+
+    public String getUserName() {
+        return this.userName;
+    }
 }
